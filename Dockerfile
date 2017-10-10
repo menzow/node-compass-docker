@@ -6,7 +6,7 @@ MAINTAINER hello@menzo.io
 RUN curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
     apt-get update -qq && apt-get install -y build-essential nodejs && \
     gem install compass && \
-    apt-get clean && \
+    apt-get clean
 
 
 ENV CLOUDSDK_CORE_DISABLE_PROMPTS 1
